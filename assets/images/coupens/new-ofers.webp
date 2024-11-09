@@ -1,0 +1,1931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="//d2wy8f7a9ursnm.cloudfront.net/v7/bugsnag.min.js"></script>
+<script type="module">
+    import BugsnagPerformance from '//d2wy8f7a9ursnm.cloudfront.net/v1/bugsnag-performance.min.js'
+    Bugsnag.start({ apiKey: '1ca23ebbef2445d033cf8793d83957e3' })
+    BugsnagPerformance.start({ apiKey: '1ca23ebbef2445d033cf8793d83957e3' })
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQPB2Z8B');</script>
+<!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="trustpilot-one-time-domain-verification-id" content="1f542398-4a34-4b15-a418-6cb07495df66"/>
+    <style>
+       .bootom-bar ul {
+            list-style: none;
+            text-align: right;
+            margin-bottom: 0px;
+        }
+
+        .bootom-bar ul li {
+            display: inline-block;
+            border-right: 1px solid #828282;
+            padding: 0px 10px;
+        }
+
+        .bootom-bar ul li:last-child {
+            border-right: none;
+        }
+
+        .bootom-bar ul li a:hover {
+            color: #ee3364;
+        }
+
+        .portlp-inner img {
+            /* width: 100%; */
+        }
+
+        .portfolio-slider .item img {
+            height: 300px;
+            object-fit: cover;
+        }
+
+        div#portfolio.animation-3d-portfolio .item img {
+            height: auto;
+        }
+
+        .price-box3 ul.height-auto {
+            max-height: 220px;
+        }
+
+        /* old  css end*/
+        /* startegy css start */
+        .startegy-sec {
+            background: #f5f5fa;
+            padding: 40px 0px;
+            background-image: url(assets/images/sta-bg.webp);
+            background-size: cover;
+            margin-top: 50px;
+            margin-bottom: 70px;
+        }
+
+        .price-body3>ul li::before {
+            position: absolute !important;
+            left: 0px;
+        }
+
+        .price-body3>ul li {
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .start-head {
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            gap: 15px;
+        }
+
+        .start-head h2 {
+            font-size: 60px;
+            color: #ffffff;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .start-head h2 span {
+            color: #ed3363;
+            display: block;
+            font-size: 48px;
+        }
+
+        .para-head p {
+            color: #ffffff;
+            font-size: 16px;
+
+            font-weight: 500;
+            line-height: 35px;
+        }
+
+        .para-head {
+            max-width: 45%;
+        }
+
+        .para-head p:nth-child(2) {
+            padding-top: 30px;
+        }
+
+        .research-mn {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            gap: 20px;
+            padding-bottom: 10px;
+            width: 100%;
+            padding-top: 10px;
+            background: hsl(0deg 0% 100% / 17%);
+            border: 1px solid hsl(0deg 0% 100% / 36%);
+            margin-bottom: 15px;
+            border-radius: 50px;
+            padding: 20px 30px;
+        }
+
+        .research-mn h4 {
+            color: #ffffff;
+            font-size: 22px;
+
+            font-weight: 500;
+            width: 100%;
+            line-height: 35px;
+        }
+
+        .research-mn:hover img:nth-child(1) {
+            display: none
+        }
+
+        .research-mn img {
+            transition: 0.5s;
+            max-width: 45px;
+            filter: brightness(0) invert(1);
+            transition: 0.5s;
+            height: 40px;
+           width: 35px;
+aspect-ratio: 70 / 80;
+        }
+
+        .research-mn img:nth-child(2) {
+            display: none !important;
+            transition: 0.5s;
+            filter: none;
+        }
+
+        .research-mn:hover img:nth-child(2) {
+            display: revert !important;
+            transition: 0.5s;
+        }
+
+        .price-body3>ul li {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .blog-banner img {
+            width: 100%;
+        }
+
+        .blog-banner {
+            margin-bottom: 50px;
+        }
+
+        .blog-detail-wrapper {
+            padding-bottom: 50px;
+        }
+
+        .blog-detail-wrapper .row {
+            justify-content: center;
+        }
+
+        .blog-detail-wrapper p {
+            font-size: 20px;
+            color: black;
+            line-height: 33px;
+            margin-bottom: 30px;
+        }
+
+        .blog-detail-wrapper h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .blog-detail-wrapper h3 {
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        .share-link {
+            list-style: none;
+            padding-left: 0px;
+        }
+
+        .share-link li {
+            display: inline-block;
+            margin: 4px;
+        }
+
+        .share-link li a {
+            font-size: 24px;
+            width: 40px;
+            height: 40px;
+            display: block;
+            text-align: center;
+            line-height: 40px;
+            background: #27273d;
+            color: white;
+        }
+
+        .share-link li a:hover {
+            background: #fff100;
+            color: #27273d;
+        }
+
+        .subscribe-now {
+            padding: 15px 30px;
+            display: inline-block;
+            background: #27273d;
+            color: white;
+            width: 202px;
+            text-align: center;
+        }
+
+        section.blog-list .blog-item .content {
+            width: calc(100% - 200px);
+        }
+
+
+        @media only screen and (max-width: 1366px) {
+
+            .start-head h2 {
+                font-size: 80px;
+            }
+
+            .para-head p {
+                font-size: 14px;
+                line-height: 30px;
+            }
+
+            .para-head p:nth-child(2) {
+                padding-top: 0px;
+            }
+
+            .research-mn h4 {
+                font-size: 18px;
+                line-height: 30px;
+            }
+
+            .research-mn h4 br {
+                display: none;
+            }
+
+            .research-mn {
+                padding-bottom: 30px;
+                padding-top: 30px;
+            }
+        }
+
+        @media (max-width: 1199.98px) {
+
+            .start-head h2 {
+                font-size: 65px;
+            }
+
+            .startegy-sec .row {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+
+            .start-head {
+                flex-direction: column;
+            }
+
+            .para-head {
+                max-width: 100%;
+            }
+
+            .start-head h2 {
+                font-size: 55px;
+                /* text-align: center; */
+            }
+
+            .research-mn {
+                border: 1px solid #353a4d;
+                border-radius: 10px;
+                margin: 10px 0px;
+                padding: 20px 15px;
+                transition: 0.5s;
+            }
+
+            .research-mn:hover {
+                border: 1px solid #ff0053;
+                box-shadow: 1px 7px 15px #ff005345;
+            }
+
+            .start-head h2 span {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+
+            .start-head h2 {
+                font-size: 45px;
+                /* text-align: center; */
+            }
+
+            .research-mn {
+                min-height: auto;
+            }
+
+            .startegy-sec {
+                padding: 50px 0px;
+            }
+
+            .start-head h2 {
+                font-size: 40px;
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .start-head h2 {
+                font-size: 30px;
+            }
+
+            .portfolio-slider .item img {
+                height: 140px;
+            }
+        }
+
+        /* strategy css end*/
+        /* combo css start*/
+
+
+
+
+        .combo_offer {
+            background: url(assets/images/combo_bg.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 70px 0px
+        }
+
+        .combo_offer {
+            position: relative;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center
+        }
+
+        .combo_offer_row .section_title_seprator:after {
+            background: #ffbb28
+        }
+
+        .combo_offer_row .section_title {
+            font-size: 40px
+        }
+
+        .combo_offer_content small {
+            display: block;
+            color: #fff;
+            font-size: 15px;
+            color: #ff0053;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            letter-spacing: .5px;
+            font-weight: 700;
+        }
+
+
+        .combo_offer_content p {
+            color: #fff;
+            font-size: 16px
+        }
+
+        .combo_offer_content .links p:before {
+            content: "\f00c";
+            position: absolute;
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            top: 0;
+            left: 0;
+            color: #ffbb28
+        }
+
+        .combo_offer_content .links p {
+            display: block;
+            color: #fff;
+            margin-bottom: 5px;
+            position: relative;
+            padding-left: 30px
+        }
+
+        .combo_offer_row .btn_link {
+            color: #fff
+        }
+
+        .combo_offer_content .btn_green:focus,
+        .combo_offer_content .btn_green:hover {
+            background: #fff;
+            color: #000
+        }
+
+        .combo_offer_row .btn_link:focus,
+        .combo_offer_row .btn_link:hover {
+            color: #ffbb28
+        }
+
+        .brd-rd3.white {
+            color: white;
+        }
+
+        .brd-rd3.white:hover {
+            background: white;
+            color: black;
+        }
+
+        @media(max-width:1400px) {
+
+            .combo_livect_btn,
+            .combo_order_btn {
+                font-size: 15px
+            }
+
+            .combo_offer_content .title {
+                font-weight: 800;
+                font-size: 40px
+            }
+
+            .combo_offer_content p {
+                font-size: 16px
+            }
+
+            .combo_offer_content .links p {
+                font-weight: 400;
+                margin-bottom: 10px;
+                font-size: 16px
+            }
+        }
+
+        @media(max-width:1024px) {
+            .combo_offer_content .title {
+                font-size: 50px
+            }
+        }
+
+        @media(max-width:991px) {
+            .combo_offer_content {
+                padding: 30px
+            }
+        }
+
+        @media(max-width:767px) {
+            .combo_image {
+                position: relative;
+                top: auto;
+                right: auto;
+                max-width: 100%;
+                transform: none;
+                display: none;
+            }
+
+            .combo_offer_row {
+                padding-right: 0
+            }
+
+            .combo_offer_row .section_title {
+                font-size: 22px
+            }
+
+            .combo_offer_content small {
+                font-size: 13px
+            }
+
+            .combo_offer_content .title {
+                font-size: 30px;
+                font-weight: 700
+            }
+
+            .about_box .title,
+            .contact_form .title {
+                font-size: 25px;
+                margin-bottom: 15px
+            }
+
+            .combo_offer_content p {
+                font-size: 16px;
+                margin-bottom: 15px;
+                text-align: left
+            }
+
+            .combo_offer_content .links p {
+                font-weight: 400;
+                font-size: 15px;
+                margin-bottom: 7px
+            }
+
+            .combo_offer_content {
+                padding: 15px
+            }
+        }
+
+        @media (max-width:575px) {
+            .combo_offer_content .lbn-btns a {
+                width: 100%;
+            }
+        }
+
+        /* combo css end*/
+        /* loader css start*/
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 999999;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        #preloader:before {
+            content: "";
+            position: fixed;
+            top: calc(50% - 30px);
+            left: calc(50% - 30px);
+            border: 6px solid #ff0053;
+            border-top-color: #ecf8f9;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            -webkit-animation: animate-preloader 1s linear infinite;
+            animation: animate-preloader 1s linear infinite;
+        }
+
+        @-webkit-keyframes animate-preloader {
+            0% {
+                transform: rotate(0)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        @keyframes animate-preloader {
+            0% {
+                transform: rotate(0)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        .blog-banner {
+            min-height: 500px;
+            background: url('assets/images/blog-banner.jpg');
+            padding-top: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .blog-banner h1 {
+            font-size: 4.375rem;
+            color: white;
+        }
+
+        section.blog-list {
+            padding: 70px 0px;
+        }
+
+        section.blog-list .blog-item a {
+            display: block;
+            width: 100%;
+        }
+
+        section.blog-list .blog-item fiqure {
+            display: block;
+            width: 100%;
+        }
+
+        section.blog-list .blog-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        section.blog-list .blog-item {
+            margin-bottom: 20px;
+            background: white;
+            box-shadow: 0px 0px 31px 0px #00000012;
+        }
+
+        section.blog-list .blog-item .content {
+            padding: 15px;
+            border-bottom: 5px solid #e7e7e7;
+        }
+
+        section.blog-list .blog-item .content h3 {
+            font-size: 25px;
+            width: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        section.blog-list .blog-item .content p {
+            font-size: 15px;
+            font-weight: 600;
+            color: #ee3364;
+        }
+
+        .blog-detail {
+            padding: 70px 0px;
+        }
+
+        .blog-detail h2,
+        .blog-detail p {
+            margin-bottom: 20px;
+        }
+
+        .blog-detail h3 {
+            margin-bottom: 20px;
+        }
+
+        .fade {
+            transition: none !important;
+        }
+
+        .trusted-sec {
+            padding-top: 0px;
+        }
+
+        .trust-slider .slick-list.draggable {
+            padding-top: 2rem !important;
+        }
+
+        .footer-wrap ul.c-info {
+            margin-top: 0px;
+        }
+
+        .footer-inner .logo {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 1500px) {
+
+            .banner-heading.lp-head .lbn-btns a,
+            .thm-btn.mini-btn {
+                font-size: 13px;
+                min-width: 175px;
+            }
+        }
+    </style>
+
+<meta charset="utf-8">
+ <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta name="trustpilot-one-time-domain-verification-id" content="1f542398-4a34-4b15-a418-6cb07495df66"/>
+<meta name="google-site-verification" content="-1Eh_btW19RvCAnqqUyT-1xPcWpDsHSqW5zsayLJqzk" />
+
+ <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<link rel="icon" href="assets/images/favicon.png" sizes="35x35" type="image/png">
+    <link rel="preload" href="assets/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/all.min.css"></noscript>
+
+  <link rel="preload" href="assets/css/elegenticons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/elegenticons.css"></noscript>
+
+  <link rel="preload" href="assets/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/bootstrap.min.css"></noscript>
+
+  <link rel="preload" href="assets/css/owl.carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/owl.carousel.min.css"></noscript>
+
+  <link rel="preload" href="assets/css/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/jquery.fancybox.min.css"></noscript>
+
+  <link rel="preload" href="assets/css/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/slick.css"></noscript>
+
+<link rel="stylesheet" href="assets/css/style.css" >
+
+    <link rel="preload" href="assets/css/responsive.css"  as="style" onload="this.onload=null;this.rel='stylesheet'" >
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" as="style" onload="this.onload=null;this.rel='stylesheet'"  />
+ <link rel="preload" href="assets/css/color.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/color.css"></noscript>
+ <script defer src="assets/js/google-tag.js?v=1"></script>
+
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '942879600116614');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=942879600116614&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQPB2Z8B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <style>
+    
+        header .dropdown .main_menus {
+            display: block;
+            position: absolute;
+            left: 152%;
+            top: calc(100% + 7px);
+            margin: 0;
+            z-index: 99;
+            opacity: 0;
+            visibility: hidden;
+            background: #fff;
+            box-shadow: 0 0 30px rgb(127 137 161 / 25%);
+            transition: .3s;
+            width: 1240px;
+            transform: translateX(-50%);
+            padding: 40px 30px;
+        }
+        
+        header .dropdown ul li {
+            min-width: 200px
+        }
+        
+        header  .dropdown ul a {
+            padding: 14px 0px 0px !important;
+            text-transform: none;
+            text-align: left;
+            font-weight: 500;
+            display: block;
+            text-transform: uppercase;
+            line-height: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-size: 15px;
+            color: #000;
+        }
+        
+        header  .dropdown ul a:hover,
+        header .dropdown ul li:hover {
+            color: #ff0053
+        }
+        
+        header  .dropdown ul a i {
+            font-size: 12px
+        }
+        
+        header .dropdown ul .active:hover,header .dropdown ul a:hover,header .dropdown ul li:hover>a {
+            color: #ff0053 !important;
+        }
+        
+        header .dropdown:hover>.main_menus {
+            opacity: 1;
+            top: 100%;
+            visibility: visible
+        }
+        header  .dropdown ul h6{
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: 2px  underline;
+            padding-top: 15px;
+        }
+        header  .dropdown ul img{
+            border-radius: 5px;
+            transition: 0.5s;
+        }
+        .menu-wrap2>ul .main_menus{
+            width: 1240px;
+            display: block;
+            position: absolute;
+            left: 152%;
+            top: calc(100% + 7px);
+            margin: 0;
+            z-index: 99;
+            opacity: 0;
+            visibility: hidden;
+            background: #fff;
+            box-shadow: 0 0 30px rgb(127 137 161 / 25%);
+            transition: .3s;
+            width: 1240px;
+            transform: translateX(-50%);
+            padding: 40px 30px!important;
+            text-align: left;
+        }
+        
+        .menu-wrap2>ul .main_menus  a {
+            text-align: left;
+            padding: 14px 0px 0px !important;
+        }
+        
+        .menu-wrap2>ul .main_menus{
+            padding: 0px;
+        }
+        
+        .menu-wrap2>ul .main_menus .row {
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        
+        .menu-wrap2>ul .main_menus h6 {
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: 2px underline;
+            padding-top: 15px;
+        }
+        /* width */
+        
+        .menu-wrap>ul>li.menu-item-has-children .mob-serve::-webkit-scrollbar {
+            width: 5px;
+        }
+        
+        
+        /* Track */
+        
+        .menu-wrap>ul>li.menu-item-has-children .mob-serve::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+        
+        /* Handle */
+        
+        .menu-wrap>ul>li.menu-item-has-children .mob-serve::-webkit-scrollbar-thumb {
+            background: #ee3364;
+            border-radius: 10px;
+        }
+        
+        .menu-wrap>ul>li.menu-item-has-children .mob-serve{
+            height: 130px;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        
+        </style>
+        
+        
+        <!-- <div id="preloader"></div> -->
+        <div class="top-nav">
+        <div class="container-fluid">
+            <ul>
+                <li><a href="tel:[phone_link]] "><i class="fa fa-phone"></i>+1 (817) 405-3278</a></li>
+                <li><a href="/cdn-cgi/l/email-protection#e695878a8395a68a8981898b83889287949fc885898b"><i class="fa fa-envelope"></i><span class="__cf_email__" data-cfemail="d0a3b1bcb5a390bcbfb7bfbdb5bea4b1a2a9feb3bfbd">[email&#160;protected]</span></a>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <header class="stick style1 w-100 d-flex flex-wrap justify-content-between align-items-center">
+        <div class="logo">
+      
+                <a href="https://logomentary.com/" title="Home"><img class="img-fluid" src="assets/images/logo.webp"
+                        alt="Logo" srcset="assets/images/logo.png"><img class="img-fluid" src="assets/images/logo-dark.webp"
+                        alt="Logo" ></a>
+    
+        </div>
+        <!-- Logo -->
+        <div class="menu-wrap">
+            <span class="menu-cls-btn rounded-circle"><i class="icon_close"></i></span>
+            <ul class="mb-0 list-unstyled w-100">
+                <li><a href="https://logomentary.com/">Home</a></li>
+               
+                <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Services</a>
+                    <ul class="mb-0 list-unstyled w-100 mob-serve">
+                       <li><a href="/logo-design" title="">Logo Design</a></li>
+                       <li><a href="/mascot-logo">Mascot Logo</a></li>
+     <li><a href="/3d-logo-design">3D Logo Design</a></li>
+                                                    <li><a href="/website-design">Website Design</a></li>
+           <li><a href="/landing-pages">Landing Pages</a></li>
+           <li><a href="/ecommerce-website">Ecommerce Website</a></li>
+           <li><a href="/basic-business-website">Basic Business Website</a></li>
+        <li><a href="/website-design" title="">Website Design</a></li>
+        <li><a href="/business-cards" title="">Business Cards</a></li>
+        <li><a href="/brand-merchandise" title="">Brand Merchandise</a></li>
+        <!-- <li><a href="/digital-marketing" title="">Digital Marketing</a></li> -->
+        <li><a href="/seo-marketing" title="">Search Engine Optimization </a></li>
+        <li><a href="/social-media-marketing" title="">Social Media Marketing</a></li>
+        <li><a href="/tiktok-marketing">TikTok Marketing</a></li>
+        <li><a href="/digital-strategy">Digital Strategy</a></li>
+        <li><a href="/content-development">Content Development</a></li>
+        <li><a href="/3d-logo-animation" title="">3d Logo Animation</a></li>
+        <li><a href="/video-animation" title="">Video Animation</a></li>
+        <li><a href="/packaging-label" title="">Packaging Labels</a></li>
+        <li><a href="/banner-ad-design" title="">Post & Banner Ads </a></li>
+        <li><a href="/marketing-collateral" title="">Print Collateral</a></li>
+        <li><a href="/art-illustration" title="">Art & Illustration</a></li>
+        <li><a href="/logo-illustration">Logo Illustration</a></li>
+        <li><a href="/brochure-and-flyer">Brochures & Flyers</a></li>
+        <li><a href="/affiliate-marketing">Affiliate Marketing</a></li>
+        <li><a href="https://logomentary.com/domain-and-hosting">Domain & Hosting</a></li>
+                    </ul>
+                </li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/packages">Packages</a></li>
+           <li><a href="/combo-packages">Combo Packages</a></li>
+                <li><a href="/contact">Contact</a></li>
+        
+            </ul>
+        </div>
+        <!-- Menu Wrap -->
+        <div class="menu-wrap2 main-nav">
+            <ul class="mb-0 d-flex flex-wrap list-unstyled w-100">
+                <li><a href="https://logomentary.com/">Home</a></li>
+                
+                <li class="menu-item-has-children dropdown"><a href="javascript:void(0);" title="">Services</a>
+           
+          <div class="main_menus">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <ul class="list-unstyled">
+                                                    <h6 class="logobradn">Logo </h6>
+                                                    <li><a href="/logo-design">Logo Design</a></li>
+                                                     <li><a href="/mascot-logo">Mascot Logo</a></li>
+                                                     <li><a href="/logo-illustration">Logo Illustration</a></li>
+                                                    <li><a href="/3d-logo-design">3D Logo Design</a></li>
+                                                </ul>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <ul class="list-unstyled">
+                                                    <h6 class="logobradn">Website</h6>
+                                                    <li><a href="/website-design">Website Design</a></li>
+                                                    <li><a href="/landing-pages">Landing Pages</a></li>
+                                                    <li><a href="/ecommerce-website">Ecommerce Website</a></li>
+                                                    <li><a href="/basic-business-website">Basic Business Website</a></li>
+                                                </ul> 
+                                               
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <ul class="list-unstyled">
+                                                <h6 class="digimart"> Digital Marketing</h6>
+                                                    <!-- <li><a href="/digital-marketing">Digital Marketing</a></li> -->
+                                                    <li><a href="/seo-marketing" title="">Search Engine Optimization </a></li>
+                                                    <li><a href="/social-media-marketing" title="">Social Media Marketing</a></li>
+                                                    <li><a href="/content-development">Content Development</a></li>
+                                                  <li><a href="/banner-ad-design">Post & Banner Ads </a></li>
+                                             <li><a href="/affiliate-marketing">Affiliate Marketing</a></li>
+                                             <li><a href="/tiktok-marketing">Tiktok Marketing</a></li>
+                                             <li><a href="/digital-strategy">Digital Strategy</a></li>
+                                                    </ul>
+                                                </div>
+                                                 <div class="col-lg-3">
+                                                    <ul class="list-unstyled">
+                                                    <h6 class="collatMn">Marketing Collateral</h6>
+                                                    <!-- <li><a href="/brochure-and-flyer">Brochures & Flyers</a></li> -->
+                                                    <li><a href="/marketing-collateral">Print Collateral</a></li>
+                                                    <li><a href="/business-cards">Business Cards</a></li>
+                                                 </ul> 
+                                                 <ul class="list-unstyled">
+                                                    <h6 class="collatMn">Domain & Hosting</h6>
+    
+                                                    <li><a href="https://logomentary.com/domain-and-hosting">Domain & Hosting</a></li>
+                                                </ul> 
+                                                </div>
+                                             
+                                                <div class="col-lg-3">
+                                                    <ul class="list-unstyled">
+                                                <h6 class="animateMn">Animation</h6>
+                                                <li><a href="/3d-logo-animation">3d Logo Animation</a></li>
+                                                    <li><a href="/video-animation">Video Animation</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <ul class="list-unstyled">
+                                                    <h6 class="labelMn">Packaging & Labels</h6>
+                                                    <li><a href="/packaging-label">Packaging Labels</a></li>
+                                                    </ul>
+                                                </div>
+                                             <div class="col-lg-3">
+                                                <ul class="list-unstyled">
+                                                <h6 class="brandds">Merchandise</h6>
+                                                <li><a href="/brand-merchandise">Brand Merchandise</a></li>
+                                                </ul>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <ul class="list-unstyled">
+                                                    <h6 class=" artMn">Art and illustration</h6>
+                                                    <li><a href="/art-illustration">Art &amp; Illustration</a></li>
+                                                    </ul>  
+                                                </div>
+                                           
+                                          
+        
+                                            </div>
+                                        </div>
+        <!-- new dropdown Mfs -->
+                </li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/packages">Packages</a></li>
+          <li><a href="/combo-packages">Combo Packages</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Menu Wrap -->
+        <div class="menu-btns d-inline-flex">
+            <a class="menu-btn rounded-circle" href="javascript:void(0);"><i class="fas fa-align-justify"></i></a>
+        </div>
+        <!-- Menu Btns -->
+        </header>
+        <!-- Header -->
+        
+        <!-- Search Wrap -->
+        <div class="sticky-header w-100 position-fixed">
+        <div class="top-nav">
+            <div class="container-fluid">
+                <ul>
+                    <li><a href="tel:+18174053278"><i class="fa fa-phone"></i>+1 (817) 405-3278</a></li>
+                    <li><a href="/cdn-cgi/l/email-protection#54273538312714383b333b39313a2035262d7a373b39"><i
+                                class="fa fa-envelope"></i><span class="__cf_email__" data-cfemail="cfbcaea3aabc8fa3a0a8a0a2aaa1bbaebdb6e1aca0a2">[email&#160;protected]</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="an-custom-container">
+            <div class="row">
+                <div class="logo">
+                    <h1 class="mb-0">
+                        <a href="https://logomentary.com/" title="Home"><img class="img-fluid"
+                                src="assets/images/logo-dark.webp" alt="Logo"
+                                srcset="assets/images/logo-dark.webp"></a>
+                    </h1>
+                </div>
+                <nav class="menu-wrap2">
+                    <ul class="mb-0 list-unstyled w-100">
+                        <li><a href="https://logomentary.com/">Home</a></li>
+                        
+                        <li class="menu-item-has-children">
+                            <a href="javascript:void(0);" title="">Services</a>
+                            <div class="main_menus">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <ul class="list-unstyled">
+                                        <h6 class="logobradn">Logo </h6>
+                                        <li><a href="/logo-design">Logo Design</a></li>
+                                         <li><a href="/mascot-logo">Mascot Logo</a></li>
+                                         <li><a href="/logo-illustration">Logo Illustration</a></li>
+                                         <li><a href="/3d-logo-design">3D Logo Design</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3">
+                                            <ul class="list-unstyled">
+                                        <h6 class="logobradn">Website</h6>
+                                        <li><a href="/website-design">Website Design</a></li>
+                                        <li><a href="/landing-pages">Landing Pages</a></li>
+                                        <li><a href="/ecommerce-website">Ecommerce Website</a></li>
+                                        <li><a href="/basic-business-website">Basic Business Website</a></li>
+                                        
+                                            </ul>
+                                    </div>
+                                    <div class="col-lg-3">
+                                            <ul class="list-unstyled">
+                                    <h6 class="digimart"> Digital Marketing</h6>
+                                    <li><a href="/seo-marketing" >Search Engine Optimization </a></li>
+                                    <li><a href="/social-media-marketing" >Social Media Marketing</a></li>
+                                        <li><a href="/content-development">Content Development</a></li>
+                                      <li><a href="/banner-ad-design">Post & Banner Ads </a></li>
+                                      <li><a href="/affiliate-marketing">Affiliate Marketing</a></li>
+                                      <li><a href="/tiktok-marketing">Tiktok Marketing</a></li>
+                                    <li><a href="/digital-strategy">Digital Strategy</a></li>
+
+                                            </ul>
+                                    </div>
+                                        <div class="col-lg-3">
+                                            <ul class="list-unstyled">
+                                        <h6 class="collatMn">Marketing Collateral</h6>
+                                       
+                                        <li><a href="/marketing-collateral">Print Collateral</a></li>
+                                        <li><a href="/business-cards">Business Cards</a></li>
+                                            </ul>
+                                            <ul class="list-unstyled">
+                                                <h6 class="collatMn">Domain & Hosting</h6>
+
+                                                <li><a href="https://logomentary.com/domain-and-hosting">Domain & Hosting</a></li>
+                                            </ul>
+    
+                                    </div>
+                                 
+                                    <div class="col-lg-3">
+                                        <ul class="list-unstyled">
+                                    <h6 class="animateMn">Animation</h6>
+                                    <li><a href="/3d-logo-animation">3d Logo Animation</a></li>
+                                        <li><a href="/video-animation">Video Animation</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <ul class="list-unstyled">
+                                        <h6 class="labelMn">Packaging & Labels</h6>
+                                        <li><a href="/packaging-label">Packaging Labels</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3">
+                                    <ul class="list-unstyled">
+                                    <h6 class="brandds">Merchandise</h6>
+                                    <li><a href="/brand-merchandise">Brand Merchandise</a></li>
+                                     </ul>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <ul class="list-unstyled">
+                                        <h6 class=" artMn">Art and illustration</h6>
+                                        <li><a href="/art-illustration">Art &amp; Illustration</a></li>
+                                        </ul>
+    
+                                    </div>
+                               
+                              
+    
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="/portfolio">Portfolio</a></li>
+                        <li><a href="/packages">Packages</a></li>
+          <li><a href="/combo-packages">Combo Packages</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+<style>
+            header.style1 .logo a>img:nth-child(2) {
+                display: block !important;
+            }
+
+            header.style1 .logo a>img:nth-child(1) {
+                display: none;
+            }
+
+            .main-nav ul li a {
+                color: black;
+            }
+
+            .errorTxt {
+                text-align: center;
+            }
+
+            .errorTxt h1 {
+                color: #000;
+                font-size: 72px;
+            }
+
+            .errorTxt p {
+                color: #000;
+                font-size: 24px;
+                padding-top: 30px;
+            }
+
+            .errorTxt .lbn-btns a {
+                font-size: 24px;
+                font-family: 'Muli';
+                font-weight: 600;
+                margin-top: -50px;
+            }
+
+            .Error-banner {
+                padding-top: 200px;
+            }
+
+            @media only screen and (max-width: 1600px) {}
+
+            @media only screen and (max-width: 1445px) {
+                .errorTxt h1 {
+                    font-size: 64px;
+                }
+            }
+
+            @media only screen and (max-width: 1366px) {
+                .container {
+                    max-width: 1140px;
+                }
+
+                .errorTxt h1 {
+                    font-size: 58px;
+                }
+
+                .errorTxt p {
+
+                    font-size: 20px;
+                    padding-top: 10px;
+                }
+            }
+
+            @media (max-width: 1199.98px) {
+                .container {
+                    max-width: 960px;
+                }
+
+                .errorTxt h1 {
+                    font-size: 50px;
+                }
+            }
+
+            @media (max-width: 991.98px) {
+                .container {
+                    max-width: 720px;
+                }
+
+                .errorTxt img {
+                    width: 100%;
+                    max-width: none;
+                }
+
+                header.style1 .logo a>img:nth-child(2) {
+                    display: none !important;
+                }
+
+            }
+
+            @media (max-width: 767.98px) {
+                .container {
+                    max-width: 540px;
+                }
+
+                .errorTxt h1 {
+                    font-size: 36px;
+                }
+            }
+
+            @media (max-width: 575.98px) {
+                .errorTxt h1 {
+    font-size: 26px;
+}
+            }
+
+            @media (max-width: 320.98px) {}
+        </style>
+
+
+<section class="mainbanner-sec Error-banner" style="background: transparent;">
+    <div class="an-custom-container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="banner-heading errorTxt">
+                    <h1>Oops... look like you got lost</h1>
+                    <p>Hey captain! Looks like you’re heading to a wrong planet!</p>
+                    <img src="https://logomentary.com/page-content/uploads/2022/08/oBNA4ZPIcE3t92DzyRiJYmP2InClERavRNOsUhfw.png" class="img-fluid" alt="">
+                    <div class="lbn-btns">
+                        <a href="https://logomentary.com/" class="thm-btn mini-btn brd-rd3">Back To Home</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+<style>
+.social_icons a {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 26px;
+    font-size: 14px;
+    margin: 1rem 0.1rem;
+    background-color: #ed3363;
+    transition: all .5s ease-in-out;
+}
+        
+        .footer-wrap h2 {
+            color: #fff;
+            font-size: 22px;
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+        
+ .social-icon {
+    color: wheat;
+    position: absolute;
+    right: 12%;
+    top: -5%;
+}
+        .firm_para {
+            font-size: 11px;
+            line-height: inherit;
+            color: black;
+            padding-top: 10px;
+            font-weight: 600;
+        }
+.social_icons .pint_icon {
+    background: #bd081c;
+}
+.social_icons .med_icon {
+    background: black;
+}
+        
+        /* second popup  */
+                .main-pop-black .popup_form{
+            background: url(./assets/images/christmas/banner.jpg) no-repeat;
+            background-size: cover;
+            text-align: center;
+            border-radius: 0px;
+            
+            }
+            .popup_form .close_popup {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #fff;
+            background-color: rgb(228, 0, 43);
+            line-height: 1;
+            width: 30px;
+            height: 30px;
+            border: none;
+            border-radius: 50px;
+            }
+            .main-pop-black .popup_form {
+            padding: 100px 50px;
+        }
+            .inner-sd-pop>img {
+                margin-bottom: 20px;
+            }
+            .inner-sd-pop .inner-copun {
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0px !important;
+            width: 300px;
+            height: 60px;
+            font-size: 18px;
+            margin-top: 10px;
+            border-radius: 5px;
+            background-image: -moz-linear-gradient( 90deg, rgb(7,50,28) 0%, rgb(11,88,49) 100%);
+            background-image: -webkit-linear-gradient( 90deg, rgb(7,50,28) 0%, rgb(11,88,49) 100%);
+            background-image: -ms-linear-gradient( 90deg, rgb(7,50,28) 0%, rgb(11,88,49) 100%);
+            }
+            .inner-sd-pop .inner-copun:hover {
+            background: white;
+            color: black;
+            }
+            
+            .inner-sd-pop p {
+            font-size: 20px;
+            color: white;
+            padding-top: 25px;
+            max-width: 90%;
+            margin: auto;
+            padding-bottom: 20px;
+            }
+            .main-pop-black .popup_form .row {
+            align-items: center;
+            }
+            .popup_package_model {
+            z-index: 11111;
+            }
+        
+        .social_icons .fb_icon {
+            background: #4267B2;
+        }
+        
+        .social_icons .tw_icon {
+            background: #1DA1F2;
+        }
+        
+        .social_icons .lnk_icon {
+            background: #0077b5;
+        }
+        
+        .social_icons .ist_icon {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        }
+        
+        .social_icons a:hover {
+            background: #ed3363;
+        }
+            /* popup end  */
+@media (max-width: 1199px) {
+.social-icon {
+    top: -5%;
+}
+}
+@media (max-width: 991px) {
+.social-icon {
+    top: 4%;
+}
+}
+            @media (max-width: 575.98px) {
+                        .inner-sd-pop p {
+                font-size: 16px;
+                padding-top: 10px;
+                max-width: 100%;
+                margin: auto;
+                padding-bottom: 10px;
+            }
+            .main-pop-black .popup_form {
+                padding: 80px 20px;
+            }
+            .inner-sd-pop .inner-copun {
+                width: 230px;
+                height: 50px;
+                font-size: 13px;
+            }
+                
+            }
+        </style>
+        <section class="patner_section afff-logos">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3">
+                                <h3> Membership <br> & <span> Affiliation </span></h3>
+                            </div>
+                            <div class="col-xl-9 col-lg-9">
+                                <div class="aff_slider ">
+                                    <div class="item">
+                                        <div>
+                                            <img src="assets/images/blank-img.jpg" class="lazy"
+                                                data-src="assets/images/aff-logo/logo1.svg" alt="patner-logo">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div>
+                                            <img src="assets/images/blank-img.jpg" class="lazy"
+                                                data-src="assets/images/aff-logo/logo-2.png" alt="patner-logo">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div>
+                                            <img src="assets/images/blank-img.jpg" class="lazy"
+                                                data-src="assets/images/aff-logo/logo-3.png" alt="patner-logo">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div>
+                                            <img src="assets/images/blank-img.jpg" class="lazy"
+                                                data-src="assets/images/aff-logo/logo4.svg" alt="patner-logo">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div>
+                                            <img src="assets/images/blank-img.jpg" class="lazy"
+                                                data-src="assets/images/aff-logo/logo-5.png" alt="patner-logo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="w-100 drk-bg pt-50 pb-50">
+                        <div class="footer-wrap w-100">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="footer-inner d-inline-block w-100">
+                                            <div class="logo d-inline-block">
+                                                <a href="https://logomentary.com/"><img class="img-fluid"
+                                                        src="assets/images/logo2.webp" alt="Home"></a>
+                                            </div>
+        
+        
+                                        </div>
+                                        <ul class="c-info">
+                                            <li><a href="tel:+18174053278"><i class="fa fa-phone"></i>+1 (817) 405-3278</a></li>
+                                            <li><a href="/cdn-cgi/l/email-protection#d8abb9b4bdab98b4b7bfb7b5bdb6acb9aaa1f6bbb7b5"><i
+                                                        class="fa fa-envelope"></i><span class="__cf_email__" data-cfemail="97e4f6fbf2e4d7fbf8f0f8faf2f9e3f6e5eeb9f4f8fa">[email&#160;protected]</span></a></li>
+                                            <li><a href="javascript:;" ><i
+                                                        class="fa fa-map-marker"></i>15500 VOSS ROAD SUITE 241 SUGAR LAND, TX 77498</a></li>
+        <li><a href="https://goo.gl/maps/sf7GjbTvQsrokwDT7" target="_blank" ><i
+                                                        class="fa fa-map-marker"></i>303 N Glenoaks Blvd Suite 200, Burbank, CA 91502, United States</a></li>
+        
+        
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h2>
+                                            Quicks Links
+                                        </h2>
+                                        <ul class="mb-0  list-unstyled w-100">
+                                            <li><a href="https://logomentary.com/">Home</a></li>
+                                        
+                                            <li><a href="/portfolio">Portfolio</a></li>
+                                            <li><a href="/packages">Packages</a></li>
+                                            <li><a href="/contact">Contact</a></li>
+        <li><a href="/blog">Blogs</a></li>
+        <li><a href="/testimonials">Reviews</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h2>Services</h2>
+                                        <!-- social icon -->
+        <div class="social_icons social-icon">
+        <a href="https://www.facebook.com/logomentary/" target="_blank" class="fb_icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/logomentary/" target="_blank" class="tw_icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/logomentary/" target="_blank" class="lnk_icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/logomentary/" target="_blank" class="ist_icon"><i class="fab fa-instagram"></i></a>
+      <a href="javascript:;" target="_blank" class="pint_icon"><i class="fa-brands fa-pinterest-p"></i></a>
+      <a href="javascript:;" target="_blank" class="med_icon"><i class="fa-brands fa-medium"></i></a>
+        </div>
+        <!-- end social icon -->
+                                        <ul class="mb-0 list-unstyled w-100 services-ul">
+                                            <li><a href="/logo-design" title="">Logo Design</a></li>
+                                            <li><a href="/website-design" title="">Website Design</a></li>
+                                            <li><a href="/brand-merchandise" title="">Branding</a></li>
+                                        <li><a href="/business-cards" title="">Business Cards</a></li>
+                                            <li><a href="/content-development" title="">Content Development</a></li>
+                                        <li><a href="/digital-marketing" title="">SEO &amp; Digital Marketing</a></li>
+                                        </ul>
+        <div class="pay_cards mt-5">
+        <img loading="lazy"  data-src="assets/images/payment_cards.png" class="lazy" alt="Payment Cards"  style="max-width: 100%;">
+        </div>
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Footer Wrap -->
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer -->
+                <div class="bootom-bar drk-bg2 text-center w-100">
+            <div class="container">
+        <div class="row">
+        <div class="col-lg-6 text-left">
+        <p class="mb-0">© 2023 Logomentary | All rights reserved.</p>
+        </div>
+        <div class="col-lg-6">
+        <ul>
+        <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
+        <li><a href="/privacy-policy">Privacy Policy</a></li>
+        <li><a href="/sitemap">Sitemap</a></li>
+        
+        </ul>
+        </div>
+        </div>
+        </div>
+                    
+                </div>
+            </main>
+            <!-- Main Wrapper -->
+        
+        
+            <!-- Package Modal -->
+            <div class="modal fade popup_package_model" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="popup_form">
+                            <button type="button" class="close_popup" data-dismiss="modal" aria-label="Close"><i
+                                    class="fas fa-times"></i></button>
+                            <small class="pkg_name">Logo & Identity</small>
+                            <h3 class="title pkg_title"><span id="pkg_title">Newbie</span> - <span class="pkg_price">$49</span>
+                            </h3>
+                            <form class="leadform lfcta smm-checks" data-source="package"
+                                data-fid="xQB9i3Du1wt4xVcEMg8f29hnul9uhjkCW1dZqdfOMa">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form_field">
+                                            <input type="text" name="name" class="c_field" placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form_field">
+                                            <input type="email" class="c_field" name="email" placeholder="Your Email Address">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form_field">
+                                            <input type="tel" name="phone" class="c_field" placeholder="Your Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form_field">
+                                            <textarea class="c_field" name="message" rows="5"
+                                                placeholder="Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-check mt-0 mb-0 pl-0">
+                                            <input class="form-check-input" type="hidden"  name="receive_newsletter"  value="1" id="flexCheckDefault2">
+                                    <!--       <label class="form-check-label" for="flexCheckDefault2">
+                                              By submitting this form you consent to receive occasional SMS messages for updates and promotions. Reply STOP to unsubscribe.
+                                            </label>-->
+        
+                                        </div>
+                
+                                    </div>
+            
+                                    <div class="col-lg-4">
+                                        <button type="submit" class="c_btn btn_green lfbtn">Submit</button>
+                                    </div>
+                            
+                                    <div class="col-lg-8">
+                                        <p class="success_msg lfmsg d-none">Your form has been submitted</p>
+                                    </div>
+                                    <div class="col-lg-12">
+            <p class="firm_para">By submitting this form you consent to receive occasional SMS messages for updates and promotions. Reply STOP to unsubscribe.</p>
+                                        <input type="hidden" id="get_pkg_data" name="package">
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div id="myModal" class="modal fade contact_popup" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="popup_form">
+                            <button type="button" class="close_popup" data-bs-dismiss="modal" aria-label="Close"><i
+                                    class="fas fa-times"></i></button>
+                            <h3 class="title">Get In Touch</h3>
+                            <form class="leadform lfcta" data-source="popup"
+                                data-fid="6Lq2WjvHIDLWJgjYaNGBSIE198ebJlhSjCHfBDAi">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form_field">
+                                            <input type="text" name="name" class="c_field" placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form_field">
+                                            <input type="email" class="c_field" name="email" placeholder="Your Email Address">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form_field">
+                                            <input type="text" name="phone" class="c_field" placeholder="Your Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form_field">
+                                            <textarea class="c_field" name="message" rows="5"
+                                                placeholder="Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 coloum-wrap">
+        
+        <div class="info__item">
+        
+        
+        </div>
+        </div>
+                                    <div class="col-lg-4">
+                                        <button type="submit" class="c_btn btn_green lfbtn">Submit</button>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <p class="success_msg lfmsg d-none">Your form has been submitted</p>
+                                    </div>
+        <input type="hidden" class="searched_domains" id=""  name="searched_domain" >
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+        
+            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js?v=2"></script>
+            <script src="assets/js/popper.min.js"></script>
+            <script src="assets/js/bootstrap.min.js"></script>
+            <script src="assets/js/owl.carousel.min.js"></script>
+            <script src="assets/js/jquery.fancybox.min.js"></script>
+        <script src="assets/js/perfect-scrollbar.min.js"></script>
+
+    <script>
+        function patchScrollBlockingListeners() {
+        let supportsPassive = false;
+        const x = document.createElement("x");
+        x.addEventListener("cut", () => 1, {
+            get passive() { supportsPassive = true; return !!1 }
+        });
+        x.remove();
+        if (supportsPassive) {
+            const originalFn = EventTarget.prototype.addEventListener;
+            EventTarget.prototype.addEventListener = function(...args) {
+            if (
+                ['scroll', 'touchmove', 'touchstart'].includes(args[0]) &&
+                (typeof args[2] !== 'object' || args[2].passive === undefined)
+            ) {
+                args[2] = {
+                ...(typeof args[2] === 'object' ? args[2] : {}),
+                passive: false
+                };
+            }
+        originalFn.call(this, ...args);
+
+            }
+        }
+        }
+        patchScrollBlockingListeners();
+        jQuery.event.special.touchstart = {
+    setup: function( _, ns, handle ){
+        this.addEventListener("touchstart", handle, { passive: true });
+    }
+    };
+        </script>
+        <!--<script>
+        jQuery.event.special.touchstart = {
+            setup: function( _, ns, handle ) {
+                this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+            }
+        };
+        jQuery.event.special.touchmove = {
+            setup: function( _, ns, handle ) {
+                this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+            }
+        };
+        jQuery.event.special.wheel = {
+            setup: function( _, ns, handle ){
+                this.addEventListener("wheel", handle, { passive: true });
+            }
+        };
+        jQuery.event.special.mousewheel = {
+            setup: function( _, ns, handle ){
+                this.addEventListener("mousewheel", handle, { passive: true });
+            }
+        };
+        
+        </script>-->
+        <!--<script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>-->
+            <script src="assets/js/slick.min.js"></script>
+        <script async src="https://app.logomentary.com/js/main.js"></script>
+            <script src="assets/js/jquery.lazyload.min.js"></script>
+            <script src="assets/js/jquery.lazy.plugins.min.js"></script>
+            <script src="assets/js/fliper.js"></script>
+            <script src="assets/js/custom-scripts.js"></script>
+<script>
+        $('.review-inner').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            dots: true,
+            arrows: true,
+            infinite: true,
+            slidesToShow: 3.8,
+            slidesToScroll: 1,
+            responsive: [{
+                    breakpoint: 1366,
+                    settings: {
+                        slidesToShow: 3,
+
+                    }
+                },
+                {
+                    breakpoint: 1199,
+                    settings: {
+                        slidesToShow: 2,
+                        arrows: false,
+                        rows: 1,
+
+
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        arrows: false,
+                        rows: 1,
+
+
+                    }
+                },
+                {
+                    breakpoint: 575,
+                    settings: {
+                        slidesToShow: 1,
+                        arrows: true,
+                        dots: false,
+                        centerMode: true,
+                        centerPadding: '30px',
+                        adaptiveHeight: true,
+                    }
+                }
+
+            ]
+        });
+    </script>
+
+
+<style>
+.pdf-views iframe {
+    height: 80vh;
+    width: 100%;
+}
+.price-body3>ul li>a {
+    font-weight: 800;
+}
+</style>
+<!-- pdf modals -->
+
+    <div class="modal fade pdf-one  pdf-check" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                        <div class="pdf-views">
+                            <iframe src="assets/images/new-logo/logo-1.pdf" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="modal fade pdf-two  pdf-check" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                        <div class="pdf-views">
+                            <iframe src="assets/images/new-logo/logo-2.pdf" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    <div class="modal fade pdf-three  pdf-check" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                        <div class="pdf-views">
+                            <iframe src="assets/images/new-logo/logo-3.pdf" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    <div class="modal fade pdf-four  pdf-check" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                        <div class="pdf-views">
+                            <iframe src="assets/images/new-logo/logo-4.pdf" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </div>
+
+
+<script>
+        //=== logom-slider Carousel ===//
+        $('.logom-slider').slick({
+            slidesToShow: 3,
+            dots: false,
+            arrows: false,
+            fade: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [{
+                    breakpoint: 1445,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 770,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 481,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+  
+        $(document).ready(function(){
+
+          $('.contactus_pops').click(function(){
+            $('.contact_popup').modal("show")
+
+
+          })  
+        })
+        </script>
+
+</body>
+</html>
